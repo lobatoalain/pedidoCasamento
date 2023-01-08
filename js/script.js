@@ -21,6 +21,7 @@ sim.addEventListener("click", ()=>{
 
 nao.addEventListener("click", ()=>{
     alert('Resposta correta')
+    window.location.reload()
 })
 
 const alterar = document.querySelector('#altera')
