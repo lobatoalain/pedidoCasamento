@@ -62,4 +62,8 @@ button{
     .celular{
         display: flex;
     }
+    
+    h1{
+    font-size: 40px;
+    }
 }
