@@ -2,13 +2,16 @@
 
 
 body{
+    font-family: 'Corinthia', cursive;
+    background-color: #eda08c;
+}
+
+section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Corinthia', cursive;
-    background-color: #eda08c;
+    min-height: 75vh;
 }
 
 h1{
@@ -33,6 +36,28 @@ button{
     display: none;
 }
 
+.alteraFrase{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:32px;
+    padding-right:32px;
+}
+
+.caixaAlteraFrase{
+    display: flex;
+    flex-direction: column;
+}
+.btn-secondary{
+    font-size: 15px!important;
+}
+
+.ativa{
+    display: block;
+}
+
+.inativa{
+    display: none;
+}
 @media(max-width:768px){
     .celular{
         display: flex;
