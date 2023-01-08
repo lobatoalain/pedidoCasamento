@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap'); 
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Corinthia', cursive;
+    background-color: #eda08c;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.confirmacao{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 30px!important;
+}
+
+.btn-success{
+    position: relative;
+}
