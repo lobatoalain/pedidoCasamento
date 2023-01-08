@@ -37,4 +37,7 @@ button{
     .celular{
         display: flex;
     }
+    button{
+    font-size: 15px!important;
+    }
 }
