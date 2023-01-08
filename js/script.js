@@ -2,8 +2,8 @@ const sim = document.querySelector('[data-sim]')
 const nao = document.querySelector('[data-nao]')
 
 sim.addEventListener("click", function(){
-    let numAleatorio1 = parseInt(Math.random()*250)
-    let numAleatorio2 = parseInt(Math.random()*250)
+    let numAleatorio1 = parseInt(Math.random()*200)
+    let numAleatorio2 = parseInt(Math.random()*200)
 
     console.log(numAleatorio1)
     console.log(numAleatorio2)
