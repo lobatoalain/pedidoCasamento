@@ -8,7 +8,7 @@ function alteraFrase(frase){
 const sim = document.querySelector('[data-sim]')
 const nao = document.querySelector('[data-nao]')
 
-sim.addEventListener("click", ()=>{
+sim.addEventListener("mousemove", ()=>{
     let top = parseInt(Math.random()*200)
     let right = parseInt(Math.random()*200)
 
