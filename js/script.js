@@ -3,7 +3,7 @@ const nao = document.querySelector('[data-nao]')
 
 sim.addEventListener("click", function(){
     let numAleatorio1 = parseInt(Math.random()*250)
-    let numAleatorio2 = parseInt(Math.random()*400)
+    let numAleatorio2 = parseInt(Math.random()*300)
 
     console.log(numAleatorio1)
     console.log(numAleatorio2)
