@@ -27,3 +27,14 @@ button{
 .btn-success{
     position: relative;
 }
+
+.celular{
+    padding-top:40px;
+    display: none;
+}
+
+@media(max-width:768px){
+    .celular{
+        display: flex;
+    }
+}
